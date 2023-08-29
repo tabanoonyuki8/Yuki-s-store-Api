@@ -314,3 +314,8 @@ const updateTotal = ()=>{
 }
 ;
 loadProducts();
+//button
+document.getElementById("btn-final").addEventListener("click",function(){
+ alert("Thank you for you purchase");
+
+})
